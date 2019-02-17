@@ -44,7 +44,7 @@
 #
 class nginx {
 
-include nginx::epel-release
+include nginx::epel_release
 include nginx::install
 include nginx::service
 

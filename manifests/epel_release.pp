@@ -1,4 +1,4 @@
-class nginx::epel-release {
+class nginx::epel_release {
 
   package { 'Installing epel-release':
 
