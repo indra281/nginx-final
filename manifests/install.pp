@@ -4,7 +4,5 @@ class nginx::install {
 
   ensure => installed,
   name   => 'nginx',
-  enable => true,
-
-  }
+    }
 }
