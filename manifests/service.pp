@@ -1,9 +1,8 @@
 class nginx::service {
 
-   service { 'Starting Nginx':
-
-   name => 'nginx',
-
-   }
-   
+service { 'Starting Nginx':
+ensure => running,
+name   => 'nginx',
+enable => true,
+  }
 }
